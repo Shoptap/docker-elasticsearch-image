@@ -18,9 +18,9 @@ extends the official elasticsearch image by adding the Image plugin.
 
 
 ### Usage
-
+```sh
     docker run -d -p 9200:9200 -p 9300:9300 dockerfile/elasticsearch
-
+```
 #### Attach persistent/shared directories
 
   1. Create a mountable data directory `<data-dir>` on the host.
@@ -40,3 +40,8 @@ extends the official elasticsearch image by adding the Image plugin.
     ```
 
 After few seconds, open `http://<host>:9200` to see the result.
+
+
+### Documentation
+* [Image Plugin](https://github.com/kzwang/elasticsearch-image)
+* [ElasticSearch](http://www.elasticsearch.org/guide/en/elasticsearch/guide/current/)
