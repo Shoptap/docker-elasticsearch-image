@@ -19,7 +19,7 @@ extends the official elasticsearch image by adding the Image plugin.
 
 ### Usage
 ```sh
-    docker run -d -p 9200:9200 -p 9300:9300 dockerfile/elasticsearch
+    docker run -d -p 9200:9200 -p 9300:9300 guerremdq/elasticsearch-image
 ```
 #### Attach persistent/shared directories
 
