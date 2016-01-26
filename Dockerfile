@@ -11,7 +11,7 @@ RUN \
   /elasticsearch/bin/plugin -install com.github.kzwang/elasticsearch-image/1.2.0
 
 # Define mountable directories.
-VOLUME ["/data"]
+VOLUME ["/elasticsearch/data"]
 
 # Define working directory.
 WORKDIR /data
